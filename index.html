@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="js-form">
+            <fieldset>
+                <legend>
+                    KANTOR WALUT
+                </legend>
+                <p>
+                    <label>
+
+                        KWOTA W PLN:
+
+                        <input class="js-amount" type="number" min="1" step="any">
+                    </label>
+                </p>
+                <p>
+                    <label>
+
+                        PRZELICZ NA:
+                        <select input class="js-currency" type="number" min="1" step="any">
+                            <option>EUR</option>
+                            <option>USD</option>
+                            <option>CHF</option>
+                        </select>
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button>PRZELICZ</button>
+            </p>
+        </form>
+        <p>OTRZYMUJESZ: <strong class="js-receive">N/a</strong>
+
+        </p>
+
+    </div>
+
+</body>
+
+</html>
